@@ -1,500 +1,931 @@
 <!DOCTYPE html>
-<html class="no-js" lang="en">
+<html lang="en">
 
 <head>
+    <title>Junyao | Portfolio</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <!-- Information About Me -->
+    <meta name="title" content="Xiao Junyao Portfolio" />
+    <meta name="description" content="I am a passion software engineer..." />
+    <meta name="keywords" content="Portfolio, Resume, Experiences" />
 
-    <!--- basic page needs
-    ================================================== -->
-    <meta charset="utf-8">
-    <title>Brent Jeremy</title>
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <!-- FAV AND ICONS   -->
+    <link rel="shortcut icon" href="assets/images/favicon.ico" />
 
-    <!-- mobile specific metas
-    ================================================== -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- CSS
-    ================================================== -->
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/vendor.css">
-
-    <!-- script
-    ================================================== -->
-    <script defer src="js/vendor/fontawesome/all.min.js"></script>
-
-    <!-- favicons
-    ================================================== -->
-    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
-    <link rel="manifest" href="site.webmanifest">
-
+    <!-- Google Font-->
+    <link href="http://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/plugins/css/bootstrap.min.css" />
+    <!-- Animate CSS-->
+    <link rel="stylesheet" href="assets/plugins/css/animate.css" />
+    <!-- Owl Carousel CSS-->
+    <link rel="stylesheet" href="assets/plugins/css/owl.css" />
+    <!-- Fancybox-->
+    <link rel="stylesheet" href="assets/plugins/css/jquery.fancybox.min.css" />
+    <!-- Custom CSS-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
 </head>
 
-<body id="top" class="ss-preload">
-
-
-    <!-- preloader
-    ================================================== -->
-    <div id="preloader">
-        <div id="loader"></div>
-    </div>
-
-
-    <!-- header
-    ================================================== -->
-    <header class="s-header">
-        <div class="row s-header__nav-wrap">
-            <nav class="s-header__nav">
-                <ul>
-                    <li class="current"><a class="smoothscroll" href="#hero">Home</a></li>
-                    <li><a class="smoothscroll" href="#about">About</a></li>
-                    <li><a class="smoothscroll" href="#resume">Resume</a></li>
-                    <!-- <li><a class="smoothscroll" href="#portfolio">Works</a></li> -->
-                    <li><a class="smoothscroll" href="#testimonials">Testimonials</a></li>
-                    <li><a class="smoothscroll" href="#contact">Say Hello</a></li>
-                </ul>
-            </nav>
-        </div> <!-- end row -->
-
-        <a class="s-header__menu-toggle" href="#0" title="Menu">
-            <span class="s-header__menu-icon"></span>
-        </a>
-    </header> <!-- end s-header -->
-
-
-    <!-- hero
-    ================================================== -->
-    <section id="hero" class="s-hero target-section">
-        
-
-        <div class="s-hero__bg rellax" data-rellax-speed="-7"></div>
-
-        <div class="row s-hero__content">
-            <div class="column">
-
-                <div class="s-hero__content-about">
-
-                    <h1>I'm Brent Jeremy.</h1>
-
-                    <h3>
-                        I'm a Vaughan based <span>Blockchain developer</span>, <span>Fullstack developer</span> and
-                        <span>Devops</span> creating awesome and
-                        effective visual identities for companies of all sizes around the globe. Let's <a
-                            class="smoothscroll" href="#about">start scrolling</a>
-                        and learn more <a class="smoothscroll" href="#about">about me</a>.
-                    </h3>
-
-                    <div class="s-hero__content-social">
-                        <a href="https://www.facebook.com/profile.php?id=100078874117993"><i
-                                class="fab fa-facebook-square" aria-hidden="true"></i></a>
-                        <a href="https://twitter.com/BrentJeremy3"><i class="fab fa-twitter" aria-hidden="true"></i></a>
-                        <a href="mailto: brentjeremynel@gmail.com"><i class="fab fa-google" aria-hidden="true"></i></a>
-                        <a href="skype:live:.cid.ffe8d0454926464f?chat"><i class="fab fa-skype"
-                                aria-hidden="true"></i></a>
-                        <a href="https://github.com/Brent-Jeremy"><i class="fab fa-github"
-                                aria-hidden="true"></i></a>
-                        <a href="https://www.linkedin.com/in/jeremy-nelson-brent-47172b22a/"><i class="fab fa-linkedin"
-                                aria-hidden="true"></i></a>
-                    </div>
-
-                </div> <!-- end s-hero__content-about -->
-
+<body class="dark-vertion black-bg">
+    <div id="App">
+        <!-- Start Loader -->
+        <div class="section-loader">
+            <div class="loader">
+                <div></div>
+                <div></div>
             </div>
-        </div> <!-- s-hero__content -->
+        </div>
+        <!-- End Loader -->
 
-        <div class="s-hero__scroll">
-            <a href="#about" class="s-hero__scroll-link smoothscroll">
-                <span class="scroll-arrow">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                        style="fill:rgba(0, 0, 0, 1);transform:;-ms-filter:">
-                        <path
-                            d="M18.707 12.707L17.293 11.293 13 15.586 13 6 11 6 11 15.586 6.707 11.293 5.293 12.707 12 19.414z">
-                        </path>
-                    </svg>
-                </span>
-                <span class="scroll-text">Scroll Down</span>
-            </a>
-        </div> <!-- s-hero__scroll -->
+        <!--
+    ===================
+       NAVIGATION
+    ===================
+    -->
+        <header class="black-bg mh-header mh-fixed-nav nav-scroll mh-xs-mobile-nav wow fadeInUp" id="mh-header">
+            <div class="overlay"></div>
+            <div class="container">
+                <div class="row">
+                    <nav class="navbar navbar-expand-lg mh-nav nav-btn">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon icon"></span>
+                        </button>
 
-    </section> <!-- end s-hero -->
-
-
-    <!-- about
-    ================================================== -->
-    <section id="about" class="s-about target-section">
-
-        <div class="row">
-            <div class="column large-3 tab-12">
-                <img class="s-about__pic" src="images/avatars/user-06.jpg" alt="">
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav mr-auto ml-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#mh-home">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#mh-about">About</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#mh-service">Services</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#mh-skills">Skills</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#mh-experience">Experiences</a>
+                                </li>
+                                <li v-if="loaded" class="nav-item">
+                                    <a class="nav-link" href="#mh-portfolio">Projects</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
             </div>
-            <div class="column large-9 tab-12 s-about__content">
-                <h3>About Me</h3>
-                I have 5 years experience in solidity.<br>
-                Also 1 year experience in rust.<br>
-                Also I have top skill in python and react.<br>
-                I worked as Devops and CTO in some companies.<br>
-                I am a fullstack developer.<br>
-                </p>
+        </header>
 
-                <hr>
+        <!--
+    ===================
+        HOME 
+    ===================
+    -->
+        <section class="mh-home home-ov-img" id="mh-home">
+            <div class="home-ovimg">
+                <div class="container">
+                    <div class="row xs-column-reverse section-separator vertical-middle-content home-padding">
+                        <div class="col-sm-6">
+                            <div class="mh-header-info">
+                                <div class="mh-promo wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.1s">
+                                    <span>Hello I'm</span>
+                                </div>
 
-                <div class="row s-about__content-bottom">
-                    <div class="column w-1000-stack">
-                        <h3>Contact Details</h3>
+                                <h2 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">
+                                    Brent Jeremy
+                                </h2>
+                                <h4 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s">
+                                    Full Stack | Blockchain Engineer
+                                </h4>
 
-                        <p>
-                            BRENT JEREMY NELSON <br>
-                            25 ROXANA AVE <br>
-                            Vaughan ONL4L 3Y6 <br>
-                            <a href="tel:+1975432345">+15053550796</a> <br>
-                            <a href="mailto:brentjeremynel@gmail.com">brentjeremynel@gmail.com</a>
-                        </p>
+                                <ul>
+                                    <li class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.4s">
+                                        <i class="fa fa-envelope"></i>
+                                        <a href="mailto: brentjeremynel@gmail.com">
+                                            brentjeremynel@gmail.com
+                                        </a>
+                                    </li>
+                                </ul>
 
-                    </div>
-                    <div class="column w-1000-stack">
-                        <a href="doc/BrentJeremy.pdf" class="btn btn--download">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                style="fill:rgba(0, 0, 0, 1);transform:;-ms-filter:">
-                                <path d="M12 16L16 11 13 11 13 4 11 4 11 11 8 11z"></path>
-                                <path d="M20,18H4v-7H2v7c0,1.103,0.897,2,2,2h16c1.103,0,2-0.897,2-2v-7h-2V18z"></path>
-                            </svg>
-                            Download CV
-                        </a>
+                                <ul class="social-icon wow fadeInUp w-100" data-wow-duration="0.8s"
+                                    data-wow-delay="0.7s">
+                                    <li class="mr-5">
+                                        <a href="https://github.com/Brent-Jeremy" target="_blank">
+                                            <i class="fab fa-github"> </i>
+                                        </a>
+                                    </li>
+                                    <li class="mr-5">
+                                        <a href="https://www.facebook.com/profile.php?id=100078874117993"
+                                            target="_blank">
+                                            <i class="fab fa-facebook"> </i>
+                                        </a>
+                                    </li>
+                                    <li class="mr-5">
+                                        <a href="https://twitter.com/BrentJeremy3" target="_blank">
+                                            <i class="fab fa-twitter"></i>
+                                        </a>
+                                    </li>
+                                    <li class="mr-5">
+                                        <a href="skype:live:.cid.ffe8d0454926464f?chat" target="_blank">
+                                            <i class="fab fa-skype"></i>
+                                        </a>
+                                    </li>
+                                    <li class="mr-5">
+                                        <a href="https://www.linkedin.com/in/jeremy-nelson-brent-47172b22a/"
+                                            target="_blank">
+                                            <i class="fab fa-linkedin"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <a href="assets/doc/BrentJeremy.pdf" target="_blank"
+                                    class="btn btn-border wow fadeInUp mt-3 ml-3" data-wow-duration="0.8s"
+                                    data-wow-delay="0.4s">Download CV</a>
+                                <a href="mailto: brentjeremynel@gmail.com?body=Hi Brent, I was browsing your services and wanted to connect.&subject=Partnership Proposal"
+                                    target="_blank" class="btn btn-border wow fadeInUp mt-3 ml-3"
+                                    data-wow-duration="0.8s" data-wow-delay="0.4s">Hire Me</a>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="hero-img wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.6s">
+                                <div class="">
+                                    <img src="assets/images/hero.jpg" alt="" class="img-fluid" />
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div> <!-- end row -->
+        </section>
 
-    </section> <!-- end s-about -->
-
-
-    <!-- resume
-    ================================================== -->
-    <section id="resume" class="s-resume target-section">
-
-        <div class="row s-resume__section">
-            <div class="column large-3 tab-12">
-                <h3 class="section-header-allcaps">Career</h3>
-            </div>
-            <div class="column large-9 tab-12">
-                <div class="resume-block">
-
-                    <div class="resume-block__header">
-                        <h4 class="h3">Prolocalize</h4>
-                        <p class="resume-block__header-meta">
-                            <span>CTO</span>
-                            <span class="resume-block__header-date">
-                                August 2019 - Present
-                            </span>
-                        </p>
+        <!--
+    ==================
+        ABOUT
+    =================
+    -->
+        <section class="mh-about" id="mh-about">
+            <div class="container">
+                <div class="row section-separator">
+                    <div class="col-sm-12 col-md-6">
+                        <div class="mh-about-img shadow-2 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.4s">
+                            <img src="assets/images/ab-img.png" alt="" class="img-fluid" />
+                        </div>
                     </div>
-
-                    <p>
-                        This is translation company.<br>
-                        But they translate automatically with AI and python programs.<br>
-                        https://prolocalize.com is our company site.<br>
-                        I am working CTO for this company.<br>
-                        My CEO is Priachat. His telegram id is @topweizhan.<br>
-                    </p>
-
-                </div> <!-- end resume-block -->
-
-                <div class="resume-block">
-
-                    <div class="resume-block__header">
-                        <h4 class="h3">Lucky Shiba</h4>
-                        <p class="resume-block__header-meta">
-                            <span>CTO</span>
-                            <span class="resume-block__header-date">
-                                August 2021 - Present
-                            </span>
-                        </p>
-                    </div>
-
-                    <p>
-                        This company is in UK and I worked in remote.
-                        CEO is Lucas and his telegram id is @iamlucase
-                        I worked as CTO for blockchain and game developing
-                       <a href="https://Luckyshiba.org"><b> Https://Luckyshiba.org </b> </a> 
-                        This is our product. <br/>
-                        <a href="https://docs.luckyshiba.org/"> <b>https://docs.luckyshiba.org/</b> </a>
-                        This is our WhitePaper.
-                        <br/>
-                        <a href="https://bscscan.com/token/0xcC2003a130DeEbD6790850B3c8d5955c1Efa4E90"> <b>https://bscscan.com/token/0xcC2003a130DeEbD6790850B3c8d5955c1Efa4E90</b> </a>
-                        This is our Contract.
-                        <ul data-key="fc76729e3d134bb9adbafb5ee72e7897" class="css-4rbku5 r-1oszu61 r-1xc7w19 r-1phboty r-1yadl64 r-deolkf r-6koalj r-1mlwlqe r-eqz5dr r-1q142lx r-crgep1 r-ifefl9 r-bcqeeo r-t60dpp r-1l7z4oj r-95jzfe r-1yzf0co r-bnwqim r-417010"><div data-rnw-media-class="1472-195__1470-_b1430-195" class="css-1dbjc4n r-1ro0kt6 r-18u37iz r-16y2uox r-1wbh5a2 r-1777fci"><div class="css-1dbjc4n r-1ro0kt6 r-16y2uox r-1wbh5a2 r-1l5ssaz"><div data-rnw-media-class="1471-__1469" class="css-1dbjc4n"><div class="css-1dbjc4n"><li data-key="cd30834fdcd140b5ac4e41ed20ba008d" class="css-4rbku5 r-1oszu61 r-1xc7w19 r-1phboty r-1yadl64 r-deolkf r-6koalj r-1mlwlqe r-eqz5dr r-1q142lx r-crgep1 r-ifefl9 r-bcqeeo r-t60dpp r-iphfwy r-wk8lta r-1yzf0co r-bnwqim r-417010"><div data-block-content="cd30834fdcd140b5ac4e41ed20ba008d" class="r-1oszu61 r-1xc7w19 r-1phboty r-1yadl64 r-deolkf r-6koalj r-1ro0kt6 r-18u37iz r-16y2uox r-1wbh5a2 r-crgep1 r-ifefl9 r-bcqeeo r-t60dpp r-bnwqim r-417010"><div contenteditable="false" class="r-1awozwy r-1xc7w19 r-1phboty r-1yadl64 r-deolkf r-6koalj r-1mlwlqe r-18u37iz r-1q142lx r-1472mwg r-crgep1 r-ifefl9 r-bcqeeo r-t60dpp r-1m04atk r-1pyaxff r-bnwqim r-417010"></div><div class="css-1dbjc4n r-13awgt0"><div data-key="953285fb5e8f4803a0d7fce055919e6b" class="r-1oszu61 r-1xc7w19 r-1phboty r-1yadl64 r-deolkf r-6koalj r-1mlwlqe r-eqz5dr r-1q142lx r-crgep1 r-ifefl9 r-bcqeeo r-t60dpp r-bnwqim r-417010"><div dir="auto" class="css-901oao r-1nf4jbm r-gg6oyi r-ubezar r-16dba41 r-135wba7 r-fdjqy7 r-1xnzce8"><span data-key="8ad9f4c0eb024469b8346fe66195d1d5"><span data-offset-key="8ad9f4c0eb024469b8346fe66195d1d5:0">Telegram Announcements: </span></span><a href="https://t.me/LuckyShibaAnnouncements" data-rnw-int-class="link____" class="css-4rbku5 css-1dbjc4n r-1loqt21 r-1471scf r-1otgn73 r-1i6wzkk r-lrvibr" style="transition-duration: 0s;"><span data-key="b42f67158d5448b6b93cee4a2c9eedbf" data-rnw-int-class="nearest_265-1767_267-1768-243__"><span data-key="a27a9aeaede94ed193bb7c009d339fb3"><span data-offset-key="a27a9aeaede94ed193bb7c009d339fb3:0">https://t.me/LuckyShibaAnnouncements</span></span></span></a><span data-key="25ed60830cfe4fe2b7c39f84facf5a0a"><span data-offset-key="25ed60830cfe4fe2b7c39f84facf5a0a:0"><span data-slate-zero-width="z">&ZeroWidthSpace;</span></span></span></div></div></div></div></li></div></div></div></div><div data-rnw-media-class="1472-195__1470-_b1430-195" class="css-1dbjc4n r-1ro0kt6 r-18u37iz r-16y2uox r-1wbh5a2 r-1777fci"><div class="css-1dbjc4n r-1ro0kt6 r-16y2uox r-1wbh5a2 r-1l5ssaz"><div data-rnw-media-class="1471-__1469" class="css-1dbjc4n"><div class="css-1dbjc4n"><li data-key="d84e3083161c48f282e842eb882a17b3" class="css-4rbku5 r-1oszu61 r-1xc7w19 r-1phboty r-1yadl64 r-deolkf r-6koalj r-1mlwlqe r-eqz5dr r-1q142lx r-crgep1 r-ifefl9 r-bcqeeo r-t60dpp r-iphfwy r-1h8ys4a r-1yzf0co r-bnwqim r-417010"><div data-block-content="d84e3083161c48f282e842eb882a17b3" class="r-1oszu61 r-1xc7w19 r-1phboty r-1yadl64 r-deolkf r-6koalj r-1ro0kt6 r-18u37iz r-16y2uox r-1wbh5a2 r-crgep1 r-ifefl9 r-bcqeeo r-t60dpp r-bnwqim r-417010"><div contenteditable="false" class="r-1awozwy r-1xc7w19 r-1phboty r-1yadl64 r-deolkf r-6koalj r-1mlwlqe r-18u37iz r-1q142lx r-1472mwg r-crgep1 r-ifefl9 r-bcqeeo r-t60dpp r-1m04atk r-1pyaxff r-bnwqim r-417010"></div><div class="css-1dbjc4n r-13awgt0"><div data-key="746232066d4f425f9658f0eab8f6cb34" class="r-1oszu61 r-1xc7w19 r-1phboty r-1yadl64 r-deolkf r-6koalj r-1mlwlqe r-eqz5dr r-1q142lx r-crgep1 r-ifefl9 r-bcqeeo r-t60dpp r-bnwqim r-417010"><div dir="auto" class="css-901oao r-1nf4jbm r-gg6oyi r-ubezar r-16dba41 r-135wba7 r-fdjqy7 r-1xnzce8"><span data-key="9eb857a4c03f4adaa21de97220b94056"><span data-offset-key="9eb857a4c03f4adaa21de97220b94056:0">Telegram Official Group: </span></span><a href="https://t.me/luckyshibachat" data-rnw-int-class="link____" class="css-4rbku5 css-1dbjc4n r-1loqt21 r-1471scf r-1otgn73 r-1i6wzkk r-lrvibr" style="transition-duration: 0s;"><span data-key="55da4aa4e48b4d77a904dcb45168ec21" data-rnw-int-class="nearest_265-1767_267-1768-243__"><span data-key="a6d91abaa4dd47748951264a26c4e472"><span data-offset-key="a6d91abaa4dd47748951264a26c4e472:0">https://t.me/luckyshibachat</span></span></span></a><span data-key="3cc2c219465f4808871e24f5587beab6"><span data-offset-key="3cc2c219465f4808871e24f5587beab6:0"><span data-slate-zero-width="z">&ZeroWidthSpace;</span></span></span></div></div></div></div></li></div></div></div></div><div data-rnw-media-class="1472-195__1470-_b1430-195" class="css-1dbjc4n r-1ro0kt6 r-18u37iz r-16y2uox r-1wbh5a2 r-1777fci"><div class="css-1dbjc4n r-1ro0kt6 r-16y2uox r-1wbh5a2 r-1l5ssaz"><div data-rnw-media-class="1471-__1469" class="css-1dbjc4n"><div class="css-1dbjc4n"><li data-key="ea4e932d034647109f6ed52bc663b339" class="css-4rbku5 r-1oszu61 r-1xc7w19 r-1phboty r-1yadl64 r-deolkf r-6koalj r-1mlwlqe r-eqz5dr r-1q142lx r-crgep1 r-ifefl9 r-bcqeeo r-t60dpp r-iphfwy r-1h8ys4a r-1yzf0co r-bnwqim r-417010"><div data-block-content="ea4e932d034647109f6ed52bc663b339" class="r-1oszu61 r-1xc7w19 r-1phboty r-1yadl64 r-deolkf r-6koalj r-1ro0kt6 r-18u37iz r-16y2uox r-1wbh5a2 r-crgep1 r-ifefl9 r-bcqeeo r-t60dpp r-bnwqim r-417010"><div contenteditable="false" class="r-1awozwy r-1xc7w19 r-1phboty r-1yadl64 r-deolkf r-6koalj r-1mlwlqe r-18u37iz r-1q142lx r-1472mwg r-crgep1 r-ifefl9 r-bcqeeo r-t60dpp r-1m04atk r-1pyaxff r-bnwqim r-417010"></div><div class="css-1dbjc4n r-13awgt0"><div data-key="677abfd2a6c447638f41aaf65b1a624e" class="r-1oszu61 r-1xc7w19 r-1phboty r-1yadl64 r-deolkf r-6koalj r-1mlwlqe r-eqz5dr r-1q142lx r-crgep1 r-ifefl9 r-bcqeeo r-t60dpp r-bnwqim r-417010"><div dir="auto" class="css-901oao r-1nf4jbm r-gg6oyi r-ubezar r-16dba41 r-135wba7 r-fdjqy7 r-1xnzce8"><span data-key="6ae879ad197b474a9359ca9a67d51b60"><span data-offset-key="6ae879ad197b474a9359ca9a67d51b60:0">Twitter:</span></span><a href="https://twitter.com/metakingsai" data-rnw-int-class="link____" class="css-4rbku5 css-1dbjc4n r-1loqt21 r-1471scf r-1otgn73 r-1i6wzkk r-lrvibr" style="transition-duration: 0s;"><span data-key="5c0dffde1e174eefa4ddd5c2a348c4a7" data-rnw-int-class="nearest_265-1767_267-1768-243__"><span data-key="4d5aafd13f3f41298dc67bf9488536e0"><span data-offset-key="4d5aafd13f3f41298dc67bf9488536e0:0"> </span></span></span></a><span data-key="62bcdd1e36b14f50a7b746f042f2fd13"><span data-offset-key="62bcdd1e36b14f50a7b746f042f2fd13:0"><span data-slate-zero-width="z">&ZeroWidthSpace;</span></span></span><a href="https://twitter.com/Luckyshibaa" data-rnw-int-class="link____" class="css-4rbku5 css-1dbjc4n r-1loqt21 r-1471scf r-1otgn73 r-1i6wzkk r-lrvibr" style="transition-duration: 0s;"><span data-key="b0ce89564f7b40019e69b864541e61cb" data-rnw-int-class="nearest_265-1767_267-1768-243__"><span data-key="4ab34fc529c648efbc0aa8eaad3271c3"><span data-offset-key="4ab34fc529c648efbc0aa8eaad3271c3:0">https://twitter.com/Luckyshibaa</span></span></span></a><span data-key="6cee492c708046a5aa634d6b5abf2fd8"><span data-offset-key="6cee492c708046a5aa634d6b5abf2fd8:0"><span data-slate-zero-width="z">&ZeroWidthSpace;</span></span></span></div></div></div></div></li></div></div></div></div><div data-rnw-media-class="1472-195__1470-_b1430-195" class="css-1dbjc4n r-1ro0kt6 r-18u37iz r-16y2uox r-1wbh5a2 r-1777fci"><div class="css-1dbjc4n r-1ro0kt6 r-16y2uox r-1wbh5a2 r-1l5ssaz"><div data-rnw-media-class="1471-__1469" class="css-1dbjc4n"><div class="css-1dbjc4n"><li data-key="f60270b51dab4e31a29c65b7430f12bd" class="css-4rbku5 r-1oszu61 r-1xc7w19 r-1phboty r-1yadl64 r-deolkf r-6koalj r-1mlwlqe r-eqz5dr r-1q142lx r-crgep1 r-ifefl9 r-bcqeeo r-t60dpp r-1mdbw0j r-1h8ys4a r-1yzf0co r-bnwqim r-417010"><div data-block-content="f60270b51dab4e31a29c65b7430f12bd" class="r-1oszu61 r-1xc7w19 r-1phboty r-1yadl64 r-deolkf r-6koalj r-1ro0kt6 r-18u37iz r-16y2uox r-1wbh5a2 r-crgep1 r-ifefl9 r-bcqeeo r-t60dpp r-bnwqim r-417010"><div contenteditable="false" class="r-1awozwy r-1xc7w19 r-1phboty r-1yadl64 r-deolkf r-6koalj r-1mlwlqe r-18u37iz r-1q142lx r-1472mwg r-crgep1 r-ifefl9 r-bcqeeo r-t60dpp r-1m04atk r-1pyaxff r-bnwqim r-417010"></div><div class="css-1dbjc4n r-13awgt0"><div data-key="f2e634aa337a4288825a7a84e52d26f8" class="r-1oszu61 r-1xc7w19 r-1phboty r-1yadl64 r-deolkf r-6koalj r-1mlwlqe r-eqz5dr r-1q142lx r-crgep1 r-ifefl9 r-bcqeeo r-t60dpp r-bnwqim r-417010"><div dir="auto" class="css-901oao r-1nf4jbm r-gg6oyi r-ubezar r-16dba41 r-135wba7 r-fdjqy7 r-1xnzce8"><span data-key="6fe61ede2b0b45ff96609fb81f260e21"><span data-offset-key="6fe61ede2b0b45ff96609fb81f260e21:0">Medium:</span></span><a href="https://metakings.medium.com" data-rnw-int-class="link____" class="css-4rbku5 css-1dbjc4n r-1loqt21 r-1471scf r-1otgn73 r-1i6wzkk r-lrvibr" style="transition-duration: 0s;"><span data-key="eeb471a9278845739a23f70cd35bd642" data-rnw-int-class="nearest_265-1767_267-1768-243__"><span data-key="25f3a38b4f66482197bfabd7119ae45f"><span data-offset-key="25f3a38b4f66482197bfabd7119ae45f:0"> </span></span></span></a><span data-key="fc0a210a7b024979b48a75f27e003aa3"><span data-offset-key="fc0a210a7b024979b48a75f27e003aa3:0"><span data-slate-zero-width="z">&ZeroWidthSpace;</span></span></span><a href="https://medium.com/@luckyshiba312" data-rnw-int-class="link____" class="css-4rbku5 css-1dbjc4n r-1loqt21 r-1471scf r-1otgn73 r-1i6wzkk r-lrvibr" style="transition-duration: 0s;"><span data-key="71468c33703043fe8ac65f99a6bef607" data-rnw-int-class="nearest_265-1767_267-1768-243__"><span data-key="b6ffdbcae1d942dfae4bd2b098c8c9d1"><span data-offset-key="b6ffdbcae1d942dfae4bd2b098c8c9d1:0">https://medium.com/@luckyshiba312</span></span></span></a><span data-key="093d4d44d87346b388205de2cceee76a"><span data-offset-key="093d4d44d87346b388205de2cceee76a:0"><span data-slate-zero-width="z">&ZeroWidthSpace;</span></span></span></div></div></div></div></li></div></div></div></div></ul>
-
-                    </p>
-
-                </div> <!-- end resume-block -->
-            </div>
-        </div> <!-- s-resume__section -->
-
-
-        <div class="row s-resume__section">
-            <div class="column large-3 tab-12">
-                <h3 class="section-header-allcaps">Education</h3>
-            </div>
-            <div class="column large-9 tab-12">
-                <div class="resume-block">
-
-                    <div class="resume-block__header">
-                        <h4 class="h3">University of Life</h4>
-                        <p class="resume-block__header-meta">
-                            <span>Master in AI</span>
-                            <span class="resume-block__header-date">
-                                April 2013
-                            </span>
-                        </p>
-                    </div>
-
-                    <p>
-                        I graduate King Mongkut's University of Technology Thonburi.<br>
-                        I master in AI.<br>
-                        Tyndale's Bachelor of Education program takes place over 16 consecutive months. Teacher
-                        Candidates have the opportunity to apply what they have been learning during three separate
-                        practicum placements in Ontario schools
-                    </p>
-
-                </div> <!-- end resume-block -->
-
-                <div class="resume-block">
-
-                    <div class="resume-block__header">
-                        <h4 class="h3">School of Cool CTO</h4>
-                        <p class="resume-block__header-meta">
-                            <span>Hodan Nalayeh Secondary School</span>
-                            <span class="resume-block__header-date">
-                                August 2010
-                            </span>
-                        </p>
-                    </div>
-
-                    <p>
-                        I grauate 
-                        Bangkok Patana School.<br>
-                        I studied programing a lot in this school.<br>
-                        The Advanced Placement Program enables students to pursue university-level studies while in high
-                        school. Based on their performance on rigorous AP Examinations, students can earn credit,
-                        advanced placement, or both for university.
-
-                        Hodan Nalayeh Secondary School’s pre-AP courses start in Grade 9 in English, Maths and Science.
-                        Students who complete the grade 12 AP courses can write the Examinations in May of their Grade
-                        12 year.
-                    </p>
-
-                </div> <!-- end resume-block -->
-            </div>
-        </div> <!-- s-resume__section -->
-
-
-        <div class="row s-resume__section">
-            <div class="column large-3 tab-12">
-                <h3 class="section-header-allcaps">Skills</h3>
-            </div>
-            <div class="column large-9 tab-12">
-                <div class="resume-block">
-
-                    <p>
-                        I am with extensive and rich knowledge of all software such as Blockchain, Website, Mobile App
-                        and more for over 12 years.<br>
-
-                        ✅ Blockchain Skill<br>
-
-                        - Smart Contract, DeFi, Ethereum, Solana, Avax, Wax, Algorand, Polygon,BSC, Polkadot<br>
-                        - DApps development ; Solidity/Rust + web3.js/ethers.js<br>
-                        - Solidity, Rust, Golang, C++, Java, Python<br>
-                        - Integration with crypto wallets such as Metamask.<br>
-
-                        ✅ Frontend Skill<br>
-                        - HTML5/SCSS/CSS3/SVG/jQuery/JavaScript/BootStrap<br>
-                        - ReactJS/Redux/React Native/Next.js/Gatsby.js<br>
-                        - Vue.js/Nuxt.js/Quasar<br>
-                        - Angular 2,4~13<br>
-                        - TypeScript/Webpack<br>
-                        -Flutter / Android Studio<br>
-
-                        ✅ Backend Skill<br>
-
-                        -PHP/JavaSpring/ Java/Laravel/Node.js/Python/Rust/Golang/C++<br>
-                        -SQL and NoSQL (MySQL, MSSQL, PostgreSQL, InfluxDB, MongoDB),Redis<br>
-
-                        ✅ Tools/Cloud<br>
-                        Firebase/Jenkins/JIRA/Docker/AWS<br>
-
-                        ✅ Version Control System<br>
-                        GitHub/GitLab/Bitbucket<br>
-
-                        I have worked on numerous projects from concept to completion. Leads all stages of various
-                        technical projects, computer programming and business finance experience.<br>
-
-                        Be brave. It's never too late to make the world a better place.<br>
-
-                        follow me!<br>
-                    </p>
-
-                    <ul class="skill-bars-fat">
-                        <li>
-                            <div class="progress percent100"></div>
-                            <strong>React</strong>
-                        </li>
-                        <li>
-                            <div class="progress percent95"></div>
-                            <strong>Solidity</strong>
-                        </li>
-                        <li>
-                            <div class="progress percent95"></div>
-                            <strong>Rust</strong>
-                        </li>
-                        <li>
-                            <div class="progress percent100"></div>
-                            <strong>Python</strong>
-                        </li>
-                        <li>
-                            <div class="progress percent90"></div>
-                            <strong>Devops</strong>
-                        </li>
-                    </ul>
-
-                </div> <!-- end resume-block -->
-
-            </div>
-        </div> <!-- s-resume__section -->
-
-    </section> <!-- end s-resume -->
-
-
-    <!-- portfolio
-    ================================================== -->
-
-    <!-- CTA
-    ================================================== -->
-    <section class="s-cta">
-
-        <div class="row">
-            <div class="column">
-                <h3 class="h2 section-desc">
-                    Need a great reliable web hosting?
-                </h3>
-            </div>
-        </div> <!-- end heading-block -->
-
-        <div class="row cta-content">
-            <div class="column">
-                <p>
-                    We highly recommend <a href="https://www.dreamhost.com/r.cgi?287326">DreamHost</a>.
-                    Powerful web and Wordpress hosting. Guaranteed.
-                    Starting at $2.95 per month.
-                </p>
-
-                <a href="https://www.dreamhost.com/r.cgi?287326" class="btn btn--primary h-full-width">Get Started</a>
-            </div>
-        </div> <!-- end cta-content -->
-
-    </section> <!-- end s-cta -->
-
-
-    <!-- testimonials
-    ================================================== -->
-
-    <!-- contact
-    ================================================== -->
-    <section id="contact" class="s-contact target-section">
-
-        <div class="row s-contact__header">
-            <div class="column large-12">
-                <h3 class="section-header-allcaps">FOLLOW ME</h3>
-            </div>
-        </div>
-
-        <div class="row s-contact__content">
-
-            <div class="column large-7 medium-12">
-
-                <h4 class="huge-text">
-                    Have a new project in mind? Let's collaborate and build something awesome.
-                    Let's turn that idea to an even greater product :)
-                </h4>
-
-            </div>
-
-            <div class="column large-4 medium-12">
-
-                <div class="row contact-infos">
-                    <div class="column large-12 medium-6 tab-12">
-                        <div class="contact-block">
-                            <h5 class="contact-block__header">
-                                Email
-                            </h5>
-                            <p class="contact-block__content">
-                                <a class="mailtoui" href="mailto:brentjeremynel@gmail.com">brentjeremynel@gmail.com</a>
+                    <div class="col-sm-12 col-md-6 " id="mh-pricing">
+                        <div class="mh-about-inner">
+                            <h2 class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.1s">
+                                About Me
+                            </h2>
+                            <p class="wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.2s">
+                                I'm a Vaughan based Blockchain developer, Fullstack developer and Devops creating
+                                awesome and effective visual identities for companies of all sizes around the globe.
+                                <br /><br />
+                                I am a well-experienced Blockchain / Web / Mobile Developer (specializing in React
+                                Applications). I graduated Master's Degree in King Mongkut's University of Technology
+                                Thonburi in 2013.
+                                <br /><br />
+                                I am with extensive and rich knowledge of all software such as Blockchain, Website,
+                                Mobile
+                                App and more for over 12 years. I developed my own blockchain So I know all about
+                                blockchain I’m currently learning more and more about blockchain to be the best
+                                blockchain developer online...
                             </p>
-                        </div> <!-- end contact-block -->
+                            <div class="mh-about-tag wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s">
+                                <ul>
+                                    <li><span>Blockchain</span></li>
+                                    <li><span>Solidity</span></li>
+                                    <li><span>Solana</span></li>
+                                    <li><span>Rust</span></li>
+                                    <li><span>Smart Contract</span></li>
+                                    <li><span>ReactJS</span></li>
+                                    <li><span>NextJS</span></li>
+                                    <li><span>VueJS</span></li>
+                                    <li><span>TypeScript</span></li>
+                                    <li><span>NodeJS</span></li>
+                                    <li><span>Python</span></li>
+                                    <li><span>PHP</span></li>
+                                    <li><span>JavaScript</span></li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
-                    <div class="column large-12 medium-6 tab-12">
-                        <div class="contact-block">
-                            <h5 class="contact-block__header">
-                                Phone
-                            </h5>
-                            <p class="contact-block__content">
-                                <a href="tel:+15053550796">+15053550796</a>
+                </div>
+            </div>
+        </section>
+
+        <!--
+    ===================
+       SERVICE
+    ===================
+    -->
+        <section class="mh-service" id="mh-service">
+            <div class="container">
+                <div class="row section-separator">
+                    <div class="col-sm-12 text-center section-title wow fadeInUp" data-wow-duration="0.8s"
+                        data-wow-delay="0.2s">
+                        <h2>What I do</h2>
+                    </div>
+                    <div class="col-md-4 col-sm-12 text-center">
+                        <div class="mh-service-item shadow-1 dark-bg wow fadeInUp" data-wow-duration="0.8s"
+                            data-wow-delay="0.5s">
+                            <i class="fa fa-code iron-color"></i>
+                            <h3>Full Stack Development</h3>
+                            <p>
+                                Do you want to build your online business? I
+                                will help for building your website...
                             </p>
-                        </div> <!-- end contact-block -->
+                        </div>
                     </div>
-
-                    <div class="column large-12">
-                        <a href="mailto:sayhello@ceevee.com" class="mailtoui btn btn--primary h-full-width">Let's
-                            Talk</a>
+                    <div class="col-md-4 col-sm-12 text-center">
+                        <div class="mh-service-item shadow-1 dark-bg wow fadeInUp" data-wow-duration="0.8s"
+                            data-wow-delay="0.3s">
+                            <i class="fa fa-feather purple-color"></i>
+                            <h3>Product Management</h3>
+                            <p>
+                                Do you have large or medium-sized projects
+                                that are difficult to manage? Perfect help.
+                            </p>
+                        </div>
                     </div>
-                </div> <!-- end contact-infos -->
-
+                    <div class="col-md-4 col-sm-12 text-center">
+                        <div class="mh-service-item shadow-1 dark-bg wow fadeInUp" data-wow-duration="0.8s"
+                            data-wow-delay="0.7s">
+                            <i class="fa fa-user-graduate sky-color"></i>
+                            <h3>Code Instructorship</h3>
+                            <p>
+                                I will privately coach you from a complete
+                                beginner to a master at a flexible schedule.
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div> <!-- s-contact__content -->
+        </section>
 
-    </section> <!-- end s-contact -->
+        <!--
+    ===================
+       SKILLS
+    ===================
+    -->
+        <section class="mh-skills" id="mh-skills">
+            <div class="container">
+                <div class="row section-separator">
+                    <div class="section-title text-center col-sm-12">
+                        <!--<h2>Skills</h2>-->
+                    </div>
+                    <div class="col-sm-12 col-md-6">
+                        <div class="mh-skills-inner">
+                            <div class="mh-professional-skill wow fadeInUp" data-wow-duration="0.8s"
+                                data-wow-delay="0.3s">
+                                <h3>Technical Skills</h3>
+                                <div class="each-skills">
+                                    <div class="candidatos">
+                                        <div class="parcial">
+                                            <div class="info">
+                                                <div class="nome">
+                                                    React
+                                                </div>
+                                                <div class="percentagem-num">
+                                                    100%
+                                                </div>
+                                            </div>
+                                            <div class="progressBar">
+                                                <div class="percentagem" style="width: 93%"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="candidatos">
+                                        <div class="parcial">
+                                            <div class="info">
+                                                <div class="nome">
+                                                    Solidity
 
+                                                </div>
+                                                <div class="percentagem-num">
+                                                    90%
+                                                </div>
+                                            </div>
+                                            <div class="progressBar">
+                                                <div class="percentagem" style="width: 100%"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="candidatos">
+                                        <div class="parcial">
+                                            <div class="info">
+                                                <div class="nome">
+                                                    Rust
+                                                </div>
+                                                <div class="percentagem-num">
+                                                    90%
+                                                </div>
+                                            </div>
+                                            <div class="progressBar">
+                                                <div class="percentagem" style="width: 100%"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="candidatos">
+                                        <div class="parcial">
+                                            <div class="info">
+                                                <div class="nome">
+                                                    Python
+                                                </div>
+                                                <div class="percentagem-num">
+                                                    100%
+                                                </div>
+                                            </div>
+                                            <div class="progressBar">
+                                                <div class="percentagem" style="width: 84%"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="candidatos">
+                                        <div class="parcial">
+                                            <div class="info">
+                                                <div class="nome">
+                                                    DEVOPS
+                                                </div>
+                                                <div class="percentagem-num">
+                                                    80%
+                                                </div>
+                                            </div>
+                                            <div class="progressBar">
+                                                <div class="percentagem" style="width: 75%"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="candidatos">
+                                        <div class="parcial">
+                                            <div class="info">
+                                                <div class="nome">
+                                                    NodeJS
+                                                </div>
+                                                <div class="percentagem-num">
+                                                    100%
+                                                </div>
+                                            </div>
+                                            <div class="progressBar">
+                                                <div class="percentagem" style="width: 100%"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="candidatos">
+                                        <div class="parcial">
+                                            <div class="info">
+                                                <div class="nome">
+                                                    Python
+                                                </div>
+                                                <div class="percentagem-num">
+                                                    100%
+                                                </div>
+                                            </div>
+                                            <div class="progressBar">
+                                                <div class="percentagem" style="width: 70%"></div>
+                                            </div>
+                                        </div>
+                                    </div>
 
-    <!-- footer
-    ================================================== -->
-    <footer class="s-footer">
-        <div class="row">
-            <div class="column large-4 medium-6 w-1000-stack s-footer__social-block">
-                <ul class="s-hero__content-social">
-                    <a href="https://www.facebook.com/profile.php?id=100078874117993"><i class="fab fa-facebook-square"
-                            aria-hidden="true"></i></a>
-                    <a href="https://twitter.com/BrentJeremy3"><i class="fab fa-twitter" aria-hidden="true"></i></a>
-                    <a href="mailto: brentjeremynel@gmail.com"><i class="fab fa-google" aria-hidden="true"></i></a>
-                    <a href="skype:live:.cid.ffe8d0454926464f?chat"><i class="fab fa-skype" aria-hidden="true"></i></a>
-                    <a href="https://github.com/Brent-Jeremy"><i class="fab fa-github"
-                            aria-hidden="true"></i></a>
-                    <a href="https://www.linkedin.com/in/jeremy-nelson-brent-47172b22a/"><i class="fab fa-linkedin"
-                            aria-hidden="true"></i></a>
-                </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6">
+                        <div class="mh-professional-skills wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.5s">
+                            <h3>Professional Skills</h3>
+                            <ul class="mh-professional-progress">
+                                <li>
+                                    <div class="mh-progress mh-progress-circle" data-progress="100"></div>
+                                    <div class="pr-skill-name">
+                                        Communication
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="mh-progress mh-progress-circle" data-progress="100"></div>
+                                    <div class="pr-skill-name">
+                                        Project Management
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="mh-progress mh-progress-circle" data-progress="100"></div>
+                                    <div class="pr-skill-name">
+                                        Mentorship
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="mh-progress mh-progress-circle" data-progress="100"></div>
+                                    <div class="pr-skill-name">
+                                        Creativity
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
+        </section>
 
-            <div class="column large-7 medium-6 w-1000-stack ss-copyright">
-                <span>© Copyright Ceevee 2021</span>
-                <span>Design by <a href="https://www.styleshout.com/">Brent Jeremy</a></span>
+        <!--
+    ===================
+       EXPERIENCES
+    ===================
+    -->
+        <section class="mh-experince" id="mh-experience">
+            <div class="bolor-overlay">
+                <div class="container">
+                    <div class="row section-separator">
+                        <div class="col-12">
+                            <div class="mh-work">
+                                <h3>Work Experience</h3>
+                                <div class="mh-experience-deatils">
+
+                                    <!-- Education Institutes-->
+                                    <div class="mh-work-item dark-bg wow fadeInUp" data-wow-duration="0.8s"
+                                        data-wow-delay="0.7s">
+                                        <h4>
+                                            Prolocalize
+
+                                            <a href="https://t.me/topweizhan">Priachat</a>, Thailand
+                                        </h4>
+                                        <div class="mh-eduyear">
+                                            <b> CTO </b> - AUGUST 2019 - PRESENT
+                                        </div>
+
+                                        <ul class="work-responsibility">
+                                            This is translation company. <br />
+                                            But they translate automatically with AI and python programs.<br />
+                                            <a href="https://prolocalize.com" style="color: #00eeff;">
+                                                <i><b>https://prolocalize.com</b></i>
+                                            </a> is our company site.
+                                            I am working CTO for this company.
+
+                                        </ul>
+                                    </div>
+                                    <!-- Education Institutes-->
+                                    <div class="mh-work-item dark-bg wow fadeInUp" data-wow-duration="0.8s"
+                                        data-wow-delay="0.7s">
+                                        <h4>
+                                            Lucky Shiba
+                                            <a href="https://t.me/iamlucase">LUCAS</a>, England
+                                        </h4>
+                                        <div class="mh-eduyear">
+                                            CTO-AUGUST 2021 - PRESENT
+                                        </div>
+                                        <ul class="work-responsibility">
+                                            <p>
+                                                This company is in UK and I worked in remote.<br />
+
+                                                I worked as CTO for blockchain and game developing
+                                                <a href="https://Luckyshiba.org"><i><b> Https://Luckyshiba.org </i></b>
+                                                </a>
+                                                This is our product. <br>
+                                                <a href="https://docs.luckyshiba.org/" style="color: #00eeff;">
+                                                    <i><b>https://docs.luckyshiba.org/ </i></b> </a>
+                                                This is our WhitePaper.
+                                                <br>
+                                                <a href="https://bscscan.com/token/0xcC2003a130DeEbD6790850B3c8d5955c1Efa4E90"
+                                                    style="color: #00eeff;">
+                                                    <i><b>https://bscscan.com/token/0xcC2003a130DeEbD6790850B3c8d5955c1Efa4E90
+                                                    </i></b> </a>
+                                                This is our Contract.
+                                            </p>
+
+                                            <ul data-key="fc76729e3d134bb9adbafb5ee72e7897 "
+                                                class="css-4rbku5 r-1oszu61 r-1xc7w19 r-1phboty r-1yadl64 r-deolkf r-6koalj r-1mlwlqe r-eqz5dr r-1q142lx r-crgep1 r-ifefl9 r-bcqeeo r-t60dpp r-1l7z4oj r-95jzfe r-1yzf0co r-bnwqim r-417010">
+                                                <div data-rnw-media-class="1472-195__1470-_b1430-195"
+                                                    class="css-1dbjc4n r-1ro0kt6 r-18u37iz r-16y2uox r-1wbh5a2 r-1777fci">
+                                                    <div class="css-1dbjc4n r-1ro0kt6 r-16y2uox r-1wbh5a2 r-1l5ssaz">
+                                                        <div data-rnw-media-class="1471-__1469" class="css-1dbjc4n">
+                                                            <div class="css-1dbjc4n">
+                                                                <li data-key="cd30834fdcd140b5ac4e41ed20ba008d"
+                                                                    class="css-4rbku5 r-1oszu61 r-1xc7w19 r-1phboty r-1yadl64 r-deolkf r-6koalj r-1mlwlqe r-eqz5dr r-1q142lx r-crgep1 r-ifefl9 r-bcqeeo r-t60dpp r-iphfwy r-wk8lta r-1yzf0co r-bnwqim r-417010">
+                                                                    <div data-block-content="cd30834fdcd140b5ac4e41ed20ba008d"
+                                                                        class="r-1oszu61 r-1xc7w19 r-1phboty r-1yadl64 r-deolkf r-6koalj r-1ro0kt6 r-18u37iz r-16y2uox r-1wbh5a2 r-crgep1 r-ifefl9 r-bcqeeo r-t60dpp r-bnwqim r-417010">
+                                                                        <div contenteditable="false"
+                                                                            class="r-1awozwy r-1xc7w19 r-1phboty r-1yadl64 r-deolkf r-6koalj r-1mlwlqe r-18u37iz r-1q142lx r-1472mwg r-crgep1 r-ifefl9 r-bcqeeo r-t60dpp r-1m04atk r-1pyaxff r-bnwqim r-417010">
+                                                                        </div>
+                                                                        <div class="css-1dbjc4n r-13awgt0">
+                                                                            <div data-key="953285fb5e8f4803a0d7fce055919e6b"
+                                                                                class="r-1oszu61 r-1xc7w19 r-1phboty r-1yadl64 r-deolkf r-6koalj r-1mlwlqe r-eqz5dr r-1q142lx r-crgep1 r-ifefl9 r-bcqeeo r-t60dpp r-bnwqim r-417010">
+                                                                                <div dir="auto"
+                                                                                    class="css-901oao r-1nf4jbm r-gg6oyi r-ubezar r-16dba41 r-135wba7 r-fdjqy7 r-1xnzce8">
+                                                                                    <span
+                                                                                        data-key="8ad9f4c0eb024469b8346fe66195d1d5"><span
+                                                                                            data-offset-key="8ad9f4c0eb024469b8346fe66195d1d5:0">Telegram
+                                                                                            Announcements:
+                                                                                        </span></span><a
+                                                                                        href="https://t.me/LuckyShibaAnnouncements"
+                                                                                        data-rnw-int-class="link____"
+                                                                                        class="css-4rbku5 css-1dbjc4n r-1loqt21 r-1471scf r-1otgn73 r-1i6wzkk r-lrvibr"
+                                                                                        style="transition-duration: 0s;">
+
+                                                                                        <span
+                                                                                            data-key="b42f67158d5448b6b93cee4a2c9eedbf"
+                                                                                            data-rnw-int-class="nearest_265-1767_267-1768-243__"><span
+                                                                                                data-key="a27a9aeaede94ed193bb7c009d339fb3"><span
+                                                                                                    style="color: #00eeff;"
+                                                                                                    data-offset-key="a27a9aeaede94ed193bb7c009d339fb3:0">https://t.me/LuckyShibaAnnouncements</span></span></span></a><span
+                                                                                        data-key="25ed60830cfe4fe2b7c39f84facf5a0a"><span
+                                                                                            data-offset-key="25ed60830cfe4fe2b7c39f84facf5a0a:0"><span
+                                                                                                data-slate-zero-width="z">&ZeroWidthSpace;</span></span></span>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </li>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div data-rnw-media-class="1472-195__1470-_b1430-195"
+                                                    class="css-1dbjc4n r-1ro0kt6 r-18u37iz r-16y2uox r-1wbh5a2 r-1777fci">
+                                                    <div class="css-1dbjc4n r-1ro0kt6 r-16y2uox r-1wbh5a2 r-1l5ssaz">
+                                                        <div data-rnw-media-class="1471-__1469" class="css-1dbjc4n">
+                                                            <div class="css-1dbjc4n">
+                                                                <li data-key="d84e3083161c48f282e842eb882a17b3"
+                                                                    class="css-4rbku5 r-1oszu61 r-1xc7w19 r-1phboty r-1yadl64 r-deolkf r-6koalj r-1mlwlqe r-eqz5dr r-1q142lx r-crgep1 r-ifefl9 r-bcqeeo r-t60dpp r-iphfwy r-1h8ys4a r-1yzf0co r-bnwqim r-417010">
+                                                                    <div data-block-content="d84e3083161c48f282e842eb882a17b3"
+                                                                        class="r-1oszu61 r-1xc7w19 r-1phboty r-1yadl64 r-deolkf r-6koalj r-1ro0kt6 r-18u37iz r-16y2uox r-1wbh5a2 r-crgep1 r-ifefl9 r-bcqeeo r-t60dpp r-bnwqim r-417010">
+                                                                        <div contenteditable="false"
+                                                                            class="r-1awozwy r-1xc7w19 r-1phboty r-1yadl64 r-deolkf r-6koalj r-1mlwlqe r-18u37iz r-1q142lx r-1472mwg r-crgep1 r-ifefl9 r-bcqeeo r-t60dpp r-1m04atk r-1pyaxff r-bnwqim r-417010">
+                                                                        </div>
+                                                                        <div class="css-1dbjc4n r-13awgt0">
+                                                                            <div data-key="746232066d4f425f9658f0eab8f6cb34"
+                                                                                class="r-1oszu61 r-1xc7w19 r-1phboty r-1yadl64 r-deolkf r-6koalj r-1mlwlqe r-eqz5dr r-1q142lx r-crgep1 r-ifefl9 r-bcqeeo r-t60dpp r-bnwqim r-417010">
+                                                                                <div dir="auto"
+                                                                                    class="css-901oao r-1nf4jbm r-gg6oyi r-ubezar r-16dba41 r-135wba7 r-fdjqy7 r-1xnzce8">
+                                                                                    <span
+                                                                                        data-key="9eb857a4c03f4adaa21de97220b94056"><span
+                                                                                            data-offset-key="9eb857a4c03f4adaa21de97220b94056:0">Telegram
+                                                                                            Official Group:
+                                                                                        </span></span><a
+                                                                                        href="https://t.me/luckyshibachat"
+                                                                                        data-rnw-int-class="link____"
+                                                                                        class="css-4rbku5 css-1dbjc4n r-1loqt21 r-1471scf r-1otgn73 r-1i6wzkk r-lrvibr"
+                                                                                        style="transition-duration: 0s;"><span
+                                                                                            data-key="55da4aa4e48b4d77a904dcb45168ec21"
+                                                                                            data-rnw-int-class="nearest_265-1767_267-1768-243__"><span
+                                                                                                data-key="a6d91abaa4dd47748951264a26c4e472"><span
+                                                                                                    style="color: #00eeff;"
+                                                                                                    data-offset-key="a6d91abaa4dd47748951264a26c4e472:0">https://t.me/luckyshibachat</span></span></span></a><span
+                                                                                        data-key="3cc2c219465f4808871e24f5587beab6"><span
+                                                                                            data-offset-key="3cc2c219465f4808871e24f5587beab6:0"><span
+                                                                                                data-slate-zero-width="z">&ZeroWidthSpace;</span></span></span>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </li>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div data-rnw-media-class="1472-195__1470-_b1430-195"
+                                                    class="css-1dbjc4n r-1ro0kt6 r-18u37iz r-16y2uox r-1wbh5a2 r-1777fci">
+                                                    <div class="css-1dbjc4n r-1ro0kt6 r-16y2uox r-1wbh5a2 r-1l5ssaz">
+                                                        <div data-rnw-media-class="1471-__1469" class="css-1dbjc4n">
+                                                            <div class="css-1dbjc4n">
+                                                                <li data-key="ea4e932d034647109f6ed52bc663b339"
+                                                                    class="css-4rbku5 r-1oszu61 r-1xc7w19 r-1phboty r-1yadl64 r-deolkf r-6koalj r-1mlwlqe r-eqz5dr r-1q142lx r-crgep1 r-ifefl9 r-bcqeeo r-t60dpp r-iphfwy r-1h8ys4a r-1yzf0co r-bnwqim r-417010">
+                                                                    <div data-block-content="ea4e932d034647109f6ed52bc663b339"
+                                                                        class="r-1oszu61 r-1xc7w19 r-1phboty r-1yadl64 r-deolkf r-6koalj r-1ro0kt6 r-18u37iz r-16y2uox r-1wbh5a2 r-crgep1 r-ifefl9 r-bcqeeo r-t60dpp r-bnwqim r-417010">
+                                                                        <div contenteditable="false"
+                                                                            class="r-1awozwy r-1xc7w19 r-1phboty r-1yadl64 r-deolkf r-6koalj r-1mlwlqe r-18u37iz r-1q142lx r-1472mwg r-crgep1 r-ifefl9 r-bcqeeo r-t60dpp r-1m04atk r-1pyaxff r-bnwqim r-417010">
+                                                                        </div>
+                                                                        <div class="css-1dbjc4n r-13awgt0">
+                                                                            <div data-key="677abfd2a6c447638f41aaf65b1a624e"
+                                                                                class="r-1oszu61 r-1xc7w19 r-1phboty r-1yadl64 r-deolkf r-6koalj r-1mlwlqe r-eqz5dr r-1q142lx r-crgep1 r-ifefl9 r-bcqeeo r-t60dpp r-bnwqim r-417010">
+                                                                                <div dir="auto"
+                                                                                    class="css-901oao r-1nf4jbm r-gg6oyi r-ubezar r-16dba41 r-135wba7 r-fdjqy7 r-1xnzce8">
+                                                                                    <span
+                                                                                        data-key="6ae879ad197b474a9359ca9a67d51b60"><span
+                                                                                            data-offset-key="6ae879ad197b474a9359ca9a67d51b60:0">Twitter:</span></span><a
+                                                                                        href="https://twitter.com/metakingsai"
+                                                                                        data-rnw-int-class="link____"
+                                                                                        class="css-4rbku5 css-1dbjc4n r-1loqt21 r-1471scf r-1otgn73 r-1i6wzkk r-lrvibr"
+                                                                                        style="transition-duration: 0s;"><span
+                                                                                            data-key="5c0dffde1e174eefa4ddd5c2a348c4a7"
+                                                                                            data-rnw-int-class="nearest_265-1767_267-1768-243__"><span
+                                                                                                data-key="4d5aafd13f3f41298dc67bf9488536e0"><span
+                                                                                                    data-offset-key="4d5aafd13f3f41298dc67bf9488536e0:0">
+                                                                                                </span></span></span></a><span
+                                                                                        data-key="62bcdd1e36b14f50a7b746f042f2fd13"><span
+                                                                                            data-offset-key="62bcdd1e36b14f50a7b746f042f2fd13:0"><span
+                                                                                                data-slate-zero-width="z">&ZeroWidthSpace;</span></span></span><a
+                                                                                        href="https://twitter.com/Luckyshibaa"
+                                                                                        data-rnw-int-class="link____"
+                                                                                        class="css-4rbku5 css-1dbjc4n r-1loqt21 r-1471scf r-1otgn73 r-1i6wzkk r-lrvibr"
+                                                                                        style="transition-duration: 0s;"><span
+                                                                                            data-key="b0ce89564f7b40019e69b864541e61cb"
+                                                                                            data-rnw-int-class="nearest_265-1767_267-1768-243__"><span
+                                                                                                data-key="4ab34fc529c648efbc0aa8eaad3271c3"><span
+                                                                                                    style="color: #00eeff;"
+                                                                                                    data-offset-key="4ab34fc529c648efbc0aa8eaad3271c3:0">https://twitter.com/Luckyshibaa</span></span></span></a><span
+                                                                                        data-key="6cee492c708046a5aa634d6b5abf2fd8"><span
+                                                                                            data-offset-key="6cee492c708046a5aa634d6b5abf2fd8:0"><span
+                                                                                                data-slate-zero-width="z">&ZeroWidthSpace;</span></span></span>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </li>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div data-rnw-media-class="1472-195__1470-_b1430-195"
+                                                    class="css-1dbjc4n r-1ro0kt6 r-18u37iz r-16y2uox r-1wbh5a2 r-1777fci">
+                                                    <div class="css-1dbjc4n r-1ro0kt6 r-16y2uox r-1wbh5a2 r-1l5ssaz">
+                                                        <div data-rnw-media-class="1471-__1469" class="css-1dbjc4n">
+                                                            <div class="css-1dbjc4n">
+                                                                <li data-key="f60270b51dab4e31a29c65b7430f12bd"
+                                                                    class="css-4rbku5 r-1oszu61 r-1xc7w19 r-1phboty r-1yadl64 r-deolkf r-6koalj r-1mlwlqe r-eqz5dr r-1q142lx r-crgep1 r-ifefl9 r-bcqeeo r-t60dpp r-1mdbw0j r-1h8ys4a r-1yzf0co r-bnwqim r-417010">
+                                                                    <div data-block-content="f60270b51dab4e31a29c65b7430f12bd"
+                                                                        class="r-1oszu61 r-1xc7w19 r-1phboty r-1yadl64 r-deolkf r-6koalj r-1ro0kt6 r-18u37iz r-16y2uox r-1wbh5a2 r-crgep1 r-ifefl9 r-bcqeeo r-t60dpp r-bnwqim r-417010">
+                                                                        <div contenteditable="false"
+                                                                            class="r-1awozwy r-1xc7w19 r-1phboty r-1yadl64 r-deolkf r-6koalj r-1mlwlqe r-18u37iz r-1q142lx r-1472mwg r-crgep1 r-ifefl9 r-bcqeeo r-t60dpp r-1m04atk r-1pyaxff r-bnwqim r-417010">
+                                                                        </div>
+                                                                        <div class="css-1dbjc4n r-13awgt0">
+                                                                            <div data-key="f2e634aa337a4288825a7a84e52d26f8"
+                                                                                class="r-1oszu61 r-1xc7w19 r-1phboty r-1yadl64 r-deolkf r-6koalj r-1mlwlqe r-eqz5dr r-1q142lx r-crgep1 r-ifefl9 r-bcqeeo r-t60dpp r-bnwqim r-417010">
+                                                                                <div dir="auto"
+                                                                                    class="css-901oao r-1nf4jbm r-gg6oyi r-ubezar r-16dba41 r-135wba7 r-fdjqy7 r-1xnzce8">
+                                                                                    <span
+                                                                                        data-key="6fe61ede2b0b45ff96609fb81f260e21"><span
+                                                                                            data-offset-key="6fe61ede2b0b45ff96609fb81f260e21:0">Medium:</span></span><a
+                                                                                        href="https://metakings.medium.com"
+                                                                                        data-rnw-int-class="link____"
+                                                                                        class="css-4rbku5 css-1dbjc4n r-1loqt21 r-1471scf r-1otgn73 r-1i6wzkk r-lrvibr"
+                                                                                        style="transition-duration: 0s;"><span
+                                                                                            data-key="eeb471a9278845739a23f70cd35bd642"
+                                                                                            data-rnw-int-class="nearest_265-1767_267-1768-243__"><span
+                                                                                                data-key="25f3a38b4f66482197bfabd7119ae45f"><span
+                                                                                                    data-offset-key="25f3a38b4f66482197bfabd7119ae45f:0">
+                                                                                                </span></span></span></a><span
+                                                                                        data-key="fc0a210a7b024979b48a75f27e003aa3"><span
+                                                                                            data-offset-key="fc0a210a7b024979b48a75f27e003aa3:0"><span
+                                                                                                data-slate-zero-width="z">&ZeroWidthSpace;</span></span></span><a
+                                                                                        href="https://medium.com/@luckyshiba312"
+                                                                                        data-rnw-int-class="link____"
+                                                                                        class="css-4rbku5 css-1dbjc4n r-1loqt21 r-1471scf r-1otgn73 r-1i6wzkk r-lrvibr"
+                                                                                        style="transition-duration: 0s;"><span
+                                                                                            data-key="71468c33703043fe8ac65f99a6bef607"
+                                                                                            data-rnw-int-class="nearest_265-1767_267-1768-243__"><span
+                                                                                                data-key="b6ffdbcae1d942dfae4bd2b098c8c9d1"><span
+                                                                                                    style="color: #00eeff;"
+                                                                                                    data-offset-key="b6ffdbcae1d942dfae4bd2b098c8c9d1:0">https://medium.com/@luckyshiba312</span></span></span></a><span
+                                                                                        data-key="093d4d44d87346b388205de2cceee76a"><span
+                                                                                            data-offset-key="093d4d44d87346b388205de2cceee76a:0"><span
+                                                                                                data-slate-zero-width="z">&ZeroWidthSpace;</span></span></span>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </li>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </ul>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
-
-        <div class="ss-go-top">
-            <a class="smoothscroll" title="Back to Top" href="#top">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                    <path d="M6 4h12v2H6zm5 10v6h2v-6h5l-6-6-6 6z" />
-                </svg>
-            </a>
-        </div> <!-- end ss-go-top -->
-    </footer>
+        </section>
 
 
-    <!-- Java Script
-    ================================================== -->
-    <script src="js/plugins.js"></script>
-    <script src="js/main.js"></script>
 
+        <section class="mh-experince" id="mh-experience">
+            <div class="bolor-overlay">
+                <div class="container">
+                    <div class="row section-separator">
+                        <div class="col-12">
+                            <div class="mh-work">
+                                <h3>EDUCATION</h3>
+                                <div class="mh-experience-deatils">
+
+                                    <!-- Education Institutes-->
+                                    <div class="mh-work-item dark-bg wow fadeInUp" data-wow-duration="0.8s"
+                                        data-wow-delay="0.7s">
+                                        <h4>
+                                            University of Life
+
+                                        </h4>
+                                        <div class="mh-eduyear">
+                                            <b> Master in AI </b> APRIL 2013
+                                        </div>
+
+                                        <ul class="work-responsibility">
+                                            I graduate King Mongkut's University of Technology Thonburi.
+                                            I master in AI.
+                                            Tyndale's Bachelor of Education program takes place over 16 consecutive
+                                            months. Teacher Candidates have the opportunity to apply what they have been
+                                            learning during three separate practicum placements in Ontario schools
+
+                                        </ul>
+                                    </div>
+
+                                    <div class="mh-work-item dark-bg wow fadeInUp" data-wow-duration="0.8s"
+                                    data-wow-delay="0.7s">
+                                    <h4>
+                                        School of Cool CTO
+
+
+                                    </h4>
+                                    <div class="mh-eduyear">
+                                        <b>Hodan Nalayeh Secondary School </b>  AUGUST 2010
+</div>
+                                    <ul class="work-responsibility">
+                                        I grauate Bangkok Patana School.
+                                        I studied programing a lot in this school.
+                                        The Advanced Placement Program enables students to pursue university-level studies while in high school. Based on their performance on rigorous AP Examinations, students can earn credit, advanced placement, or both for university. Hodan Nalayeh Secondary School’s pre-AP courses start in Grade 9 in English, Maths and Science. Students who complete the grade 12 AP courses can write the Examinations in May of their Grade 12 year.
+
+                                    </ul>
+                                </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--
+    ===================
+       PORTFOLIO
+    ===================
+    -->
+        <section v-if="loaded" class="mh-portfolio map-image" id="mh-portfolio">
+            <div class="container">
+                <div class="row section-separator">
+                    <div class="section-title col-sm-12 wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.1s">
+                        <h3>Previous Works</h3>
+                    </div>
+                    <div class="part col-sm-12">
+                        <div class="mh-project-gallery wow fadeInUp">
+                            <div class="row">
+                                <div class="col-md-4 col-sm-6 col-xs-12">
+                                    <div class="card">
+                                        <h5 style="
+                                                    text-align: center;
+                                                    padding: 15px 0;
+                                                ">
+                                        LuckyShiba Website
+                                        </h5>
+                                        <img src="assets/images/work1.jpg" alt="" />
+                                        <hr />
+                                        <a href="https://luckyshiba.org/" target="_blank">
+                                            <i class="fa fa-link"></i>
+                                            connect link
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-6 col-xs-12">
+                                    <div class="card">
+                                        <h5 style="
+                                                    text-align: center;
+                                                    padding: 15px 0;
+                                                ">
+                                            Goose Defi Website
+                                        </h5>
+                                        <img src="assets/images/work2.jpg" alt="" />
+                                        <hr />
+                                        <a href="http://31.220.56.166" target="_blank">
+                                            <i class="fa fa-link"></i>
+                                            connect link
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-6 col-xs-12">
+                                    <div class="card">
+                                        <h5 style="
+                                                    text-align: center;
+                                                    padding: 15px 0;
+                                                ">
+                                            BNB Staking Website
+                                        </h5>
+                                        <img src="assets/images/work3.jpg" alt="" />
+                                        <hr />
+                                        <a href="http://31.220.51.125" target="_blank">
+                                            <i class="fa fa-link"></i>
+                                            connect link
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-6 col-xs-12">
+                                    <div class="card">
+                                        <h5 style="
+                                                    text-align: center;
+                                                    padding: 15px 0;
+                                                ">
+                                            NFT Minting Website
+                                        </h5>
+                                        <img src="assets/images/work4.jpg" alt="" />
+                                        <hr />
+                                        <a href="http://31.220.49.238" target="_blank">
+                                            <i class="fa fa-link"></i>
+                                            connect link
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-6 col-xs-12">
+                                    <div class="card">
+                                        <h5 style="
+                                                    text-align: center;
+                                                    padding: 15px 0;
+                                                ">
+                                            Presale Website(ICO)
+                                        </h5>
+                                        <img src="assets/images/work5.jpg" alt="" />
+                                        <hr />
+                                        <a href="#" target="_blank">
+                                            <i class="fa fa-link"></i>
+                                            connect link
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-md-4 col-sm-6 col-xs-12">
+                                    <div class="card">
+                                        <h5 style="
+                                                    text-align: center;
+                                                    padding: 15px 0;
+                                                ">
+                                            Staking Website
+                                        </h5>
+                                        <img src="assets/images/work6.jpg" alt="" />
+                                        <hr />
+                                        <a href="#" target="_blank">
+                                            <i class="fa fa-link"></i>
+                                            connect link
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--
+    ===================
+       FOOTER 1
+    ===================
+    -->
+        <footer class="mh-footer" id="mh-contact">
+            <div class="container">
+                <div class="col-sm-12 mx-auto wow fadeInUp" data-wow-duration="0.8s" data-wow-delay="0.3s">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="text-left text-xs-center">
+                            
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!-- jQuery -->
+    <script src="assets/plugins/js/jquery.min.js"></script>
+    <!-- popper -->
+    <script src="assets/plugins/js/popper.min.js"></script>
+    <!-- bootstrap -->
+    <script src="assets/plugins/js/bootstrap.min.js"></script>
+    <!-- owl carousel -->
+    <script src="assets/plugins/js/owl.carousel.js"></script>
+    <!-- validator -->
+    <script src="assets/plugins/js/validator.min.js"></script>
+    <!-- wow -->
+    <script src="assets/plugins/js/wow.min.js"></script>
+    <!-- mixin js-->
+    <script src="assets/plugins/js/jquery.mixitup.min.js"></script>
+    <!-- circle progress-->
+    <script src="assets/plugins/js/circle-progress.js"></script>
+    <!-- jquery nav -->
+    <script src="assets/plugins/js/jquery.nav.js"></script>
+    <!-- Fancybox js-->
+    <script src="assets/plugins/js/jquery.fancybox.min.js"></script>
+    <!-- isotope js-->
+    <script src="assets/plugins/js/isotope.pkgd.js"></script>
+    <script src="assets/plugins/js/packery-mode.pkgd.js"></script>
+    <script src="assets/js/custom-scripts.js"></script>
 </body>
 
 </html>
